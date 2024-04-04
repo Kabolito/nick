@@ -1,0 +1,12 @@
+@import url(styles.css);
+
+header {
+  font-size: 10px;
+}
+
+.imagem {
+  margin-top: 20px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}

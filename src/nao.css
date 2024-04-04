@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+}
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+  background-color: #000000;
+  text-shadow: rgb(105, 105, 105) 1px 1px;
+  background-image: url(nao_wallpaper.jpg);
+  width: 100%;
+}
+
+.content {
+  text-align: center;
+  margin: 10%;
+  color: rgb(255, 0, 0);
+  font-size: 26px;
+  position: relative;
+  height: 100%;
+}

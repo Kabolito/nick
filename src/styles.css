@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+}
+
+header {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.h1header {
+  position: relative;
+  z-index: 1;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+  background-color: #87ceeb;
+}
+
+.contador {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.scene {
+  position: relative;
+  height: 100%;
+}
+
+.content {
+  z-index: 1;
+  position: relative;
+  color: white;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 25px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-size: 25px;
+  text-align: center;
+}
+
+.botoes {
+  padding-top: 40px;
+  text-align: center;
+}
+
+.button1 {
+  display: inline-block;
+  padding: 20px 40px;
+  font-size: 40px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #f50599;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.button1:hover {
+  background-position-y: -10px;
+  background-image: url(emoji_flor.jpg);
+  background-size: cover;
+  opacity: 0.7;
+  z-index: -1;
+}
+
+.button2 {
+  display: inline-block;
+  padding: 20px 40px;
+  font-size: 40px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #f50599;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.button2:hover {
+  background-position-y: 120px;
+  background-image: url(yard_stare.jpg);
+  background-size: cover;
+  opacity: 0.7;
+  z-index: -1;
+}
+
+.balao {
+  z-index: 0;
+  width: 90px;
+  height: 90px;
+  background-color: #be003f; /* Cor do coração */
+  position: relative;
+  bottom: 0;
+  left: calc(50% - 40px);
+  animation: subir 20s linear infinite;
+  clip-path: polygon(50% 44%, 75% 35%, 90% 60%, 50% 100%, 10% 60%, 25% 35%);
+}
+
+@keyframes subir {
+  0% {
+    bottom: 0;
+  }
+  100% {
+    bottom: 100%;
+    transform: translateY(-100%);
+  }
+}
+
+.balao:nth-child(2) {
+  left: calc(20% - 40px);
+  animation-duration: 9s;
+}
+
+.balao:nth-child(3) {
+  left: calc(40% - 40px);
+  animation-duration: 8s;
+}
+
+.balao:nth-child(4) {
+  left: calc(60% - 40px);
+  animation-duration: 7s;
+}
+
+.balao:nth-child(5) {
+  left: calc(80% - 40px);
+  animation-duration: 6s;
+}
+
+.balao:nth-child(6) {
+  left: calc(30% - 40px);
+  animation-duration: 5s;
+}
+
+.balao:nth-child(7) {
+  left: calc(50% - 40px);
+  animation-duration: 4s;
+}
+
+.balao:nth-child(8) {
+  left: calc(70% - 40px);
+  animation-duration: 3s;
+}
